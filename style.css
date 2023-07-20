@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+}
+h1 {
+    color: black;
+    font-size: 400%;
+    font-family: Arial;
+}
+h2 {
+    color: black;
+    font-size: 200%;
+    font-family: Arial;
+}
+p {
+    text-align: left;
+    color: grey;
+    font-size: 125%;
+    font-family: Arial;
+}
