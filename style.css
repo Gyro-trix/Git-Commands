@@ -1,19 +1,52 @@
 body {
-    background-color: rgb(16, 34, 46);
+    background-color: rgb(0, 0, 0);
+    background-image: radial-gradient(rgba(0, 73, 4, 0.75), black 125%);
+    height: 100%;
+    
+    font-family: Inconsolata, monospace;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: repeating-linear-gradient(
+          0deg,
+          rgba(black, 0.15),
+          rgba(black, 0.15) 1px,
+          transparent 1px,
+          transparent 2px
+        );
+    }
 }
+table, th{
+    border: 1px solid;
+  }
 h1 {
+    text-align: center;
     color: black;
-    font-size: 400%;
-    font-family: Arial;
+    font-size: 600%;
+    
 }
 h2 {
     color: black;
     font-size: 200%;
-    font-family: Arial;
 }
 p {
     text-align: left;
-    color: grey;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 100%;
+}
+
+#com {
+    min-width: 250px;
+    color: rgba(255, 255, 255, 0.7); 
+    text-shadow: 0 0 5px #C8C8C8; 
     font-size: 125%;
-    font-family: Arial;
+}
+
+#content { 
+    width: 1200px; 
+    margin: 0 auto; 
 }
